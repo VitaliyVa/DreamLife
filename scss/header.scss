@@ -1,8 +1,34 @@
 header {
+	background: url('../img/header/header-bg-1.jpg') right top no-repeat;
 	img {
 		max-width: 100%;
 		height: auto;
 	}
+
+}
+.bg-text-1 {
+	position: absolute;
+	left: 0;
+	top: 735px;
+	z-index: -1;
+
+	 img {
+	 	max-width: 100%;
+		height: auto;
+	 }
+	
+}
+.bg-text-2 {
+	position: absolute;
+	left: 0;
+	top: 1425px;
+	z-index: -1;
+
+	 img {
+	 	max-width: 100%;
+		height: auto;
+	 }
+	
 }
 .dream-life-block {
 	padding-top: 45px;
@@ -19,13 +45,15 @@ header {
 	&-profile {
 		padding-top: 90px;
 
+
 	}
 
 	&__title {
-		color: #debe87;
+		color: #9D9E9E;
 		text-transform: uppercase;
 		font-size: 32px;
 		font-weight: 700;
+
 	}
 	&__subtitle {
 		color: #debe87;
@@ -34,7 +62,7 @@ header {
 		font-weight: 700;
 	}
 	&__paragraph {
-		color: #bfc1c1;
+		color: #9D9E9E;
 
 		
 	}
@@ -129,6 +157,9 @@ background: #000;
 #last-header-img {
 	padding-bottom: 170px;
 }
+#last-head-animated {
+	padding-top: 90px;
+}
 @media (max-width: 1047px) {
 	.container {
 		width: 100%;
@@ -137,6 +168,12 @@ background: #000;
 	}
 }
 @media (max-width: 896px) {
+	.bg-text-1 {
+		top: 900px;
+	}
+	.bg-text-2 {
+		top: 1560px;
+	}
 	.dream-life__prof {
 	padding-top: 200px;
 	}
@@ -167,5 +204,34 @@ background: #000;
 		width: 100%;
 		
 
+	}
+}
+#text-width-1 {
+	max-width: 580px;
+}
+@media (max-width: 800px) {
+	.bg-text-1 {
+		top: 900px;
+	}
+	.bg-text-2 {
+		top: 1600px;
+	}
+}
+@media (max-width: 795px) {
+	.bg-text-2 {
+			top: 1610px;
+		}
+}
+@media (max-width: 788px) {
+	.bg-text-2 {
+			top: 1610px;
+		}
+}
+@media (max-width: 529px) {
+	.bg-text-1 {
+		top: 1000px;
+	}
+	.bg-text-2 {
+		top: 1610px;
 	}
 }

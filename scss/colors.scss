@@ -1,0 +1,123 @@
+.colors {
+	background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
+				url('../img/sect-colors/bg-text-sect-4.png') left top 1110px no-repeat;
+
+	.animated-wrap {
+		width: 378px;
+		padding-top: 0;
+	}
+	h2 {
+		padding-top: 197px;
+	}
+}
+.color-block {
+	max-width: 400px;
+	margin: 0 auto;
+	box-shadow: 10px 14px 24px -4px rgba(209,209,209,1);
+	border-radius: 15px;
+	margin-top: 80px;
+	margin-bottom: 90px;
+	z-index: 10;
+}
+.text-img-color-block {
+	display: flex;
+	justify-content: space-between;
+
+}
+.animate-sebtitle {
+	font-weight: 700;
+	color: #9D9E9E;
+
+}
+.img-color-wrap {
+	display: flex;
+	justify-content: space-between;
+	
+	span {
+		padding-top: 20px;
+		margin-bottom: 10px;
+	}
+}
+.img-color__profile {
+	width: 245px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+	padding-bottom: 100px;
+}
+#span-color-1 {
+	margin-bottom: 18px;
+}
+#real-brand__title {
+	padding: 0;
+	padding-bottom: 72px;
+}
+.big-img-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+   img {
+	margin-bottom: 120px;
+	width: 422px;
+	max-height: 422px;
+	box-shadow: 3px 2px 26px 3px rgba(230,225,230,1);
+	}
+}
+@media (max-width: 896px) {
+	.text-img-color-block {
+	display: flex;
+	flex-direction: column;
+	}
+	.img-color__profile {
+		flex-basis: 50%;
+	}
+	.colors {
+		background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
+		url('../img/sect-colors/bg-text-sect-4.png') left top 1370px no-repeat;
+		.animated-wrap {
+			width: 100%;
+		}
+	}
+	#span-color-3 {
+		height: 55px;
+	}
+}
+@media (max-width: 883px) {
+	.big-img-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+}
+@media (max-width: 529px) {
+	.colors {
+		background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
+		url('../img/sect-colors/bg-text-sect-4.png') left top 1850px no-repeat;
+	}
+	.img-color-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+	.img-color__profile {
+		padding: 0;
+	}
+	#real-brand__title {
+		padding-top: 80px;
+	}
+	.big-img-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	   img {
+	   		margin-bottom: 40px;
+	   }
+	}
+}
+@media (max-width: 381px) {
+	.colors {
+		background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
+		url('../img/sect-colors/bg-text-sect-4.png') left top 1850px no-repeat;
+	}
+}
