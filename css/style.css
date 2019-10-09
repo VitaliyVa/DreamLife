@@ -114,28 +114,28 @@ header {
     opacity: 1; } }
 @-webkit-keyframes boxwww {
   from {
-    background: #000;
+    background: #303030;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     overflow: hidden; }
   70% {
-    background: #000; }
+    background: #303030; }
   to {
     -webkit-transform: translateX(130%);
             transform: translateX(130%);
-    background: #000; } }
+    background: #303030; } }
 @keyframes boxwww {
   from {
-    background: #000;
+    background: #303030;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     overflow: hidden; }
   70% {
-    background: #000; }
+    background: #303030; }
   to {
     -webkit-transform: translateX(130%);
             transform: translateX(130%);
-    background: #000; } }
+    background: #303030; } }
 .animated-wrap {
   padding-top: 33px; }
 
