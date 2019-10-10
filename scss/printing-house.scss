@@ -1,5 +1,6 @@
 .printing-house {
 	background: url('../img/bg-text-sect-2.jpg') left top 128px no-repeat;
+
 	background-color: #88011D;
 
 
@@ -56,7 +57,14 @@
 	
 }
 @media (max-width: 896px) {
-	
+	.printing-house {
+		background-size: 700px auto;
+		}
+}
+@media (max-width: 702px) {
+		.printing-house {
+		background-size: 500px auto;
+		}
 }
 @media (max-width: 529px) {
 	.title-second__two, .animated-wrap {
@@ -65,4 +73,12 @@
 	.img-roboto-wrap {
 		margin-left: 0;
 	}
+	.printing-house {
+		background-size: 400px auto;
+		}
+}
+@media (max-width: 402px) {
+	.printing-house {
+		background-size: 300px auto;
+		}
 }

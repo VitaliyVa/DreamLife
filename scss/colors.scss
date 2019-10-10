@@ -1,6 +1,6 @@
 .colors {
-	background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
-				url('../img/sect-colors/bg-text-sect-4.png') left top 1110px no-repeat;
+	background: url('../img/bg-text-sect-3.png') left top 50px no-repeat, 
+	url('../img/sect-colors/bg-text-sect-4.png') left top 1110px no-repeat;
 
 	.animated-wrap {
 		width: 378px;
@@ -72,7 +72,7 @@
 		flex-basis: 50%;
 	}
 	.colors {
-		background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
+		background: url('../img/bg-text-sect-3.png') left top 50px no-repeat, 
 		url('../img/sect-colors/bg-text-sect-4.png') left top 1370px no-repeat;
 		.animated-wrap {
 			width: 100%;
@@ -89,10 +89,18 @@
 	align-items: center;
 	}
 }
+@media (max-width: 580px) {
+	.colors {
+		background: url('../img/bg-text-sect-3.png') left top 50px no-repeat, 
+		url('../img/sect-colors/bg-text-sect-4.png') left top 1370px no-repeat;
+		background-size: 500px auto;
+	}
+}
 @media (max-width: 529px) {
 	.colors {
-		background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
-		url('../img/sect-colors/bg-text-sect-4.png') left top 1850px no-repeat;
+		background: url('../img/bg-text-sect-3.png') left top 80px no-repeat, 
+		url('../img/sect-colors/bg-text-sect-4.png') left top 1750px no-repeat;
+		background-size: 450px auto;
 	}
 	.img-color-wrap {
 	display: flex;
@@ -115,9 +123,17 @@
 	   }
 	}
 }
+@media (max-width: 444px) {
+	.colors {
+		background: url('../img/bg-text-sect-3.png') left top 120px no-repeat, 
+		url('../img/sect-colors/bg-text-sect-4.png') left top 1850px no-repeat;
+		background-size: 350px auto;
+	}
+}
 @media (max-width: 381px) {
 	.colors {
-		background: url('../img/bg-text-sect-3.png') left top 128px no-repeat, 
+		background: url('../img/bg-text-sect-3.png') left top 120px no-repeat, 
 		url('../img/sect-colors/bg-text-sect-4.png') left top 1850px no-repeat;
+		background-size: 350px auto;
 	}
 }

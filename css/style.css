@@ -57,7 +57,8 @@ header {
   font-size: 16px;
   font-weight: 700; }
 .text__paragraph {
-  color: #9D9E9E; }
+  color: #9D9E9E;
+  text-align: justify; }
 
 .header-img {
   -webkit-box-shadow: -4px -3px 18px 2px #d9d9d9;
@@ -274,14 +275,26 @@ header {
 
   .printing-house .title-second__two, .printing-house .animated-wrap {
     padding-left: 15%; } }
+@media (max-width: 896px) {
+  .printing-house {
+    background-size: 700px auto; } }
+@media (max-width: 702px) {
+  .printing-house {
+    background-size: 500px auto; } }
 @media (max-width: 529px) {
   .title-second__two, .animated-wrap {
     padding-left: 0; }
 
   .img-roboto-wrap {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .printing-house {
+    background-size: 400px auto; } }
+@media (max-width: 402px) {
+  .printing-house {
+    background-size: 300px auto; } }
 .colors {
-  background: url("../img/bg-text-sect-3.png") left top 128px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1110px no-repeat; }
+  background: url("../img/bg-text-sect-3.png") left top 50px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1110px no-repeat; }
   .colors .animated-wrap {
     width: 378px;
     padding-top: 0; }
@@ -371,7 +384,7 @@ header {
         flex-basis: 50%; }
 
   .colors {
-    background: url("../img/bg-text-sect-3.png") left top 128px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1370px no-repeat; }
+    background: url("../img/bg-text-sect-3.png") left top 50px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1370px no-repeat; }
     .colors .animated-wrap {
       width: 100%; }
 
@@ -388,9 +401,14 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; } }
+@media (max-width: 580px) {
+  .colors {
+    background: url("../img/bg-text-sect-3.png") left top 50px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1370px no-repeat;
+    background-size: 500px auto; } }
 @media (max-width: 529px) {
   .colors {
-    background: url("../img/bg-text-sect-3.png") left top 128px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1850px no-repeat; }
+    background: url("../img/bg-text-sect-3.png") left top 80px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1750px no-repeat;
+    background-size: 450px auto; }
 
   .img-color-wrap {
     display: -webkit-box;
@@ -424,9 +442,14 @@ header {
         flex-wrap: wrap; }
     .big-img-wrap img {
       margin-bottom: 40px; } }
+@media (max-width: 444px) {
+  .colors {
+    background: url("../img/bg-text-sect-3.png") left top 120px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1850px no-repeat;
+    background-size: 350px auto; } }
 @media (max-width: 381px) {
   .colors {
-    background: url("../img/bg-text-sect-3.png") left top 128px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1850px no-repeat; } }
+    background: url("../img/bg-text-sect-3.png") left top 120px no-repeat, url("../img/sect-colors/bg-text-sect-4.png") left top 1850px no-repeat;
+    background-size: 350px auto; } }
 .sect-four {
   background: #88011D; }
 
@@ -481,9 +504,12 @@ footer {
   font-size: 11pt; }
 
 body {
+  position: relative;
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto; }
 
 *,
 *:after,

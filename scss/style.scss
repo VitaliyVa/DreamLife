@@ -6,9 +6,12 @@
 @import 'footer';
 
 body {
+	position: relative;
 	padding: 0;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 *,
 *:after,
