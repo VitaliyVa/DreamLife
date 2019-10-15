@@ -164,7 +164,6 @@ header {
 
 .shadow__element {
   max-width: 1512px;
-  border: 1px solid red;
   font-size: 90pt;
   opacity: 0.2;
   position: absolute;
@@ -180,6 +179,13 @@ header {
   .container {
     width: 100%;
     padding: 0 20px; } }
+@media (max-width: 949px) {
+  .shadow__element {
+    font-size: 70pt; } }
+@media (max-width: 529px) {
+  .shadow__element {
+    font-size: 44pt;
+    top: -90%; } }
 @media (max-width: 896px) {
   #shadow-2 {
     left: -25%; }
@@ -484,6 +490,38 @@ header {
     -webkit-box-shadow: 3px 2px 26px 3px #e6e1e6;
             box-shadow: 3px 2px 26px 3px #e6e1e6; }
 
+@media (max-width: 1336px) {
+  #shadow-4 {
+    left: -25%;
+    top: 50%;
+    z-index: -1; }
+
+  #shadow-5 {
+    top: -80%;
+    left: -34%;
+    z-index: -1; } }
+@media (max-width: 1199px) {
+  #shadow-4 {
+    left: -20%;
+    top: 50%; }
+
+  #shadow-5 {
+    top: -80%;
+    left: -25%;
+    z-index: -1; } }
+@media (max-width: 529px) {
+  #shadow-4 {
+    left: -20%;
+    top: 60%; }
+
+  #shadow-5 {
+    top: 15%;
+    left: -25%;
+    z-index: -1; } }
+@media (max-width: 378px) {
+  #shadow-4 {
+    left: -20%;
+    top: 50%; } }
 @media (max-width: 896px) {
   .text-img-color-block {
     display: -webkit-box;

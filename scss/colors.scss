@@ -132,6 +132,47 @@
 	box-shadow: 3px 2px 26px 3px rgba(230,225,230,1);
 	}
 }
+@media (max-width: 1336px) {
+	#shadow-4 {
+	left: -25%;
+	top: 50%;
+	z-index: -1;
+	}
+	#shadow-5 {
+	top: -80%;
+	left: -34%;
+	z-index: -1;
+	}
+}
+@media (max-width: 1199px) {
+	#shadow-4 {
+	left: -20%;
+	top: 50%;
+	}
+	#shadow-5 {
+	top: -80%;
+	left: -25%;
+	z-index: -1;
+	}
+}
+@media (max-width: 529px) {
+	#shadow-4 {
+	left: -20%;
+	top: 60%;
+	}
+	#shadow-5 {
+	top: 15%;
+	left: -25%;
+	z-index: -1;
+	}
+}
+@media (max-width: 378px) {
+	#shadow-4 {
+	left: -20%;
+	top: 50%;
+	}
+}
+
 @media (max-width: 896px) {
 	.text-img-color-block {
 	display: flex;

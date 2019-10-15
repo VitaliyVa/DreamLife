@@ -169,7 +169,7 @@ header {
 }
 	.shadow__element {
 		max-width: 1512px;
-	border: 1px solid red;
+
 	    font-size: 90pt;
 	    opacity: 0.2;
 	    position: absolute;
@@ -189,6 +189,17 @@ header {
 		width: 100%;
 		padding: 0 20px;
 
+	}
+}
+@media (max-width: 949px) {
+	.shadow__element {
+		font-size: 70pt;
+	}
+}
+@media (max-width: 529px) {
+	.shadow__element {
+		font-size: 44pt;
+		top: -90%;
 	}
 }
 @media (max-width: 896px) {
