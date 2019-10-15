@@ -193,15 +193,61 @@ header {
 }
 @media (max-width: 949px) {
 	.shadow__element {
+		top: -155%;
 		font-size: 70pt;
 	}
 }
+@media (max-width: 848px) {
+	#shadow-2 {
+		top: -100%;
+	left: -43%;
+	font-size: 54pt;
+	}
+}
+
 @media (max-width: 529px) {
 	.shadow__element {
 		font-size: 44pt;
 		top: -90%;
 	}
 }
+@media (max-width: 478px) {
+	.shadow__element {
+
+		font-size: 35pt;
+	}
+	#shadow-2 {
+	left: -43%;
+	font-size: 32pt;
+	}
+}
+@media (max-width: 436px) {
+	.shadow__element {
+		top: -80%;
+		font-size: 30pt;
+	}
+	#shadow-2 {
+	top: -60%;
+	left: -43%;
+	font-size: 27pt;
+	}
+}
+@media (max-width: 429px) {
+	
+	#shadow-2 {
+	top: -35%;
+	left: -43%;
+	font-size: 27pt;
+	}
+}
+@media (max-width: 352px) {
+	
+	#shadow-2 {
+	left: -43%;
+	font-size: 23pt;
+	}
+}
+
 @media (max-width: 896px) {
 	#shadow-2 {
 	left: -25%;

@@ -159,9 +159,21 @@
 	#shadow-4 {
 	left: -20%;
 	top: 60%;
+	font-size: 44pt;
 	}
 	#shadow-5 {
 	top: 15%;
+	left: -25%;
+	z-index: -1;
+	}
+}
+@media (max-width: 479px) {
+	#shadow-4 {
+	left: -20%;
+	top: 70%;
+	}
+	#shadow-5 {
+	top: 25%;
 	left: -25%;
 	z-index: -1;
 	}
