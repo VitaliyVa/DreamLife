@@ -38,7 +38,7 @@ header {
 
 }
 .dream-life__prof {
-	padding-top: 180px;
+	padding-top: 90px;
 }
 
 .text {
@@ -75,6 +75,7 @@ header {
 }
 #img-header-2 {
 	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 #an-container-2 {
@@ -204,16 +205,33 @@ header {
 	font-size: 54pt;
 	}
 }
-
+@media (max-width: 678px) {
+	.shadow__element {
+		
+		font-size: 55pt;
+	}
+	#shadow-2 {
+		font-size: 47pt;
+	}
+}
+@media (max-width: 586px) {
+	
+	#shadow-2 {
+		font-size: 42pt;
+	}
+}
 @media (max-width: 529px) {
 	.shadow__element {
 		font-size: 44pt;
 		top: -90%;
 	}
+	#shadow-2 {
+		font-size: 38pt;
+	}
 }
 @media (max-width: 478px) {
 	.shadow__element {
-
+		
 		font-size: 35pt;
 	}
 	#shadow-2 {
@@ -249,6 +267,9 @@ header {
 }
 
 @media (max-width: 896px) {
+	.dream-life__prof {
+	padding-top: 30px;
+	}
 	#shadow-2 {
 	left: -25%;
 	}
@@ -270,9 +291,7 @@ header {
 	.bg-text-2 {
 		top: 1560px;
 	}
-	.dream-life__prof {
-	padding-top: 200px;
-	}
+	
 	.dream-life-block {
 		width: 100%;
 	
