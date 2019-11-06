@@ -146,6 +146,7 @@ header {
             transform: translateX(130%);
     background: #303030; } }
 .animated-wrap {
+  padding: 0 15px;
   padding-top: 33px; }
 
 .main-header__title {
@@ -160,8 +161,7 @@ header {
   font-weight: 700; }
 
 #last-header-img {
-  padding-bottom: 170px;
-  min-height: 420px; }
+  padding-bottom: 170px; }
 
 #last-head-animated {
   padding-top: 90px;
@@ -181,13 +181,114 @@ header {
   font-size: 80pt;
   opacity: 0.2;
   position: absolute;
-  top: -200%;
+  top: -166%;
   left: -37%;
   z-index: 999;
   text-transform: uppercase; }
 
 #shadow-2 {
   left: -43%; }
+
+.logo-svg {
+  margin-top: -130px;
+  height: 700px; }
+  .logo-svg svg {
+    width: 700px;
+    height: auto; }
+
+.fil1 {
+  fill: #fff; }
+
+.fil0, .str0 {
+  stroke-dasharray: 500;
+  -webkit-animation: mobile 2s linear forwards;
+          animation: mobile 2s linear forwards;
+  -webkit-animation-delay: 999999999s;
+          animation-delay: 999999999s; }
+
+.test0 {
+  opacity: 0;
+  -webkit-animation: mobile 1.7s linear forwards;
+          animation: mobile 1.7s linear forwards;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+
+.animated-svg, .test12, .test1 {
+  opacity: 0;
+  -webkit-animation: mobile 10s linear forwards;
+          animation: mobile 10s linear forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s; }
+
+.test2 {
+  opacity: 0;
+  -webkit-animation: mobile 1.7s linear forwards;
+          animation: mobile 1.7s linear forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s; }
+
+.test3, .test4 {
+  opacity: 0;
+  -webkit-animation: mobile 1.7s linear forwards;
+          animation: mobile 1.7s linear forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s; }
+
+.test5 {
+  opacity: 0;
+  -webkit-animation: mobile 1.7s linear forwards;
+          animation: mobile 1.7s linear forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s; }
+
+@-webkit-keyframes mobile {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 500;
+    stroke-width: 1; }
+  70% {
+    stroke-dashoffset: 0;
+    stroke-width: 1; }
+  80% {
+    stroke-width: 1; }
+  100% {
+    stroke-dasharray: 1500;
+    opacity: 1; } }
+
+@keyframes mobile {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: 500;
+    stroke-width: 1; }
+  70% {
+    stroke-dashoffset: 0;
+    stroke-width: 1; }
+  80% {
+    stroke-width: 1; }
+  100% {
+    stroke-dasharray: 1500;
+    opacity: 1; } }
+.fe-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .fe-wrap img {
+    width: 10px;
+    height: 10px;
+    margin-top: 24px;
+    z-index: 3;
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .fe-wrap p {
+    margin-left: 5px;
+    z-index: 1; }
 
 @media (max-width: 1047px) {
   .container {
@@ -201,6 +302,13 @@ header {
     top: -155%;
     font-size: 70pt; } }
 @media (max-width: 848px) {
+  .logo-svg {
+    margin-top: -100px;
+    height: 500px; }
+    .logo-svg svg {
+      width: 500px;
+      height: auto; }
+
   #last-header-img {
     min-height: 380px; }
 
@@ -222,7 +330,10 @@ header {
     font-size: 55pt; }
 
   #shadow-2 {
-    font-size: 47pt; } }
+    font-size: 47pt; }
+
+  #last-header-img {
+    width: 100%; } }
 @media (max-width: 586px) {
   #last-header-img {
     min-height: 400px; }
@@ -230,12 +341,26 @@ header {
   #shadow-2 {
     font-size: 42pt; } }
 @media (max-width: 529px) {
+  .logo-svg {
+    margin-top: -100px;
+    height: 400px; }
+    .logo-svg svg {
+      width: 400px;
+      height: auto; }
+
   .shadow__element {
     font-size: 44pt;
     top: -90%; }
 
   #shadow-2 {
     font-size: 38pt; } }
+@media (max-width: 429px) {
+  .logo-svg {
+    margin-top: -60px;
+    height: 300px; }
+    .logo-svg svg {
+      width: 300px;
+      height: auto; } }
 @media (max-width: 478px) {
   #last-header-img {
     min-height: 450px; }
@@ -279,10 +404,6 @@ header {
     height: auto; }
 
   #img-header-4 {
-    width: 70%;
-    height: auto; }
-
-  #last-header-img {
     width: 70%;
     height: auto; }
 
@@ -435,11 +556,11 @@ header {
 
 #shadow-4 {
   left: -40%;
-  top: 50%;
+  top: 55%;
   z-index: -1; }
 
 #shadow-5 {
-  top: -80%;
+  top: -60%;
   left: -44%;
   z-index: -1; }
 
@@ -459,7 +580,9 @@ header {
           justify-content: space-between;
   padding-top: 100px;
   z-index: 5;
-  background-color: #fff; }
+  background-color: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
 
 .palitre__profile {
   width: 150px;
@@ -538,6 +661,8 @@ header {
           justify-content: space-between;
   min-height: 500px; }
   .img-color-wrap span {
+    min-height: 80px;
+    text-align: center;
     padding-top: 20px;
     margin-bottom: 10px; }
 
@@ -580,25 +705,24 @@ header {
 @media (max-width: 1336px) {
   #shadow-4 {
     left: -25%;
-    top: 50%;
     z-index: -1; }
 
   #shadow-5 {
-    top: -80%;
+    top: -60%;
     left: -34%;
     z-index: -1; } }
 @media (max-width: 1199px) {
   #shadow-4 {
-    left: -20%;
-    top: 50%; }
+    left: -20%; }
 
   #shadow-5 {
-    top: -80%;
+    top: -60%;
     left: -25%;
     z-index: -1; } }
 @media (max-width: 1100px) {
   #shadow-4 {
-    font-size: 70pt; }
+    font-size: 70pt;
+    top: 61%; }
 
   #shadow-5 {
     font-size: 70pt; } }
@@ -607,10 +731,12 @@ header {
     font-size: 60pt; }
 
   #shadow-5 {
-    font-size: 60pt; } }
+    font-size: 60pt;
+    top: -37%; } }
 @media (max-width: 699px) {
   #shadow-4 {
-    font-size: 50pt; }
+    font-size: 50pt;
+    top: 70%; }
 
   #shadow-5 {
     font-size: 50pt; } }
@@ -631,11 +757,10 @@ header {
     min-height: 830px; }
 
   #shadow-4 {
-    left: -20%;
-    top: 60%; }
+    left: -20%; }
 
   #shadow-5 {
-    top: 15%;
+    top: 30%;
     left: -25%;
     z-index: -1; } }
 @media (max-width: 479px) {
@@ -758,7 +883,7 @@ header {
   .id__color {
     font-size: 10pt; }
 
-  #last-header-img {
+  .colors #last-header-img {
     max-width: 85%;
     height: auto;
     padding-bottom: 80px; } }
@@ -884,7 +1009,7 @@ footer {
   font-size: 11pt; }
 
 .logo-footer-wrap {
-  max-width: 183px;
+  max-width: 283px;
   margin: 0 auto;
   padding-bottom: 50px; }
 

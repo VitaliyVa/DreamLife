@@ -13,11 +13,11 @@
 
 #shadow-4 {
 	left: -40%;
-	top: 50%;
+	top: 55%;
 	z-index: -1;
 }
 #shadow-5 {
-	top: -80%;
+	top: -60%;
 	left: -44%;
 	z-index: -1;
 }
@@ -37,6 +37,8 @@
 	padding-top: 100px;
 	z-index: 5;
 	background-color: #fff;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px
 }
 .palitre__profile {
 	width: 150px;
@@ -106,6 +108,8 @@
 	justify-content: space-between;
 	min-height: 500px;
 	span {
+		min-height: 80px;
+		text-align: center;
 		padding-top: 20px;
 		margin-bottom: 10px;
 	}
@@ -139,11 +143,11 @@
 @media (max-width: 1336px) {
 	#shadow-4 {
 	left: -25%;
-	top: 50%;
+	
 	z-index: -1;
 	}
 	#shadow-5 {
-	top: -80%;
+	top: -60%;
 	left: -34%;
 	z-index: -1;
 	}
@@ -151,10 +155,10 @@
 @media (max-width: 1199px) {
 	#shadow-4 {
 	left: -20%;
-	top: 50%;
+	
 	}
 	#shadow-5 {
-	top: -80%;
+	top: -60%;
 	left: -25%;
 	z-index: -1;
 	}
@@ -162,7 +166,7 @@
 @media (max-width: 1100px) {
 	#shadow-4 {
 	font-size: 70pt;
-	
+	top: 61%;
 	}
 	#shadow-5 {
 	font-size: 70pt;
@@ -175,12 +179,13 @@
 	}
 	#shadow-5 {
 	font-size: 60pt;
+	top: -37%;
 	}
 }
 @media (max-width: 699px) {
 	#shadow-4 {
 	font-size: 50pt;
-	
+	top: 70%;
 	}
 	#shadow-5 {
 	font-size: 50pt;
@@ -211,11 +216,11 @@
 	}
 	#shadow-4 {
 	left: -20%;
-	top: 60%;
+	
 	
 	}
 	#shadow-5 {
-	top: 15%;
+	top: 30%;
 	left: -25%;
 	z-index: -1;
 	}
@@ -346,11 +351,14 @@
 	.id__color {
 		font-size: 10pt;
 	}
-	#last-header-img {
+	.colors {
+		#last-header-img {
 		max-width: 85%;
 		height: auto;
 		padding-bottom: 80px;
+		}
 	}
+	
 
 }
 @media (max-width: 414px) {
